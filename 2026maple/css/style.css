@@ -2057,16 +2057,12 @@ section:nth-last-child {
     width: 58%;
     padding-left: 0;
   }
-  
-  .details-tabs {
-    justify-content: left;
-  } 
 
   .details-tab {
-    width: 105px;
     font-size: 18px;
-    padding: 0.8rem 2rem;
+    padding: 0.8rem 1rem;
     margin: 10px 3px;
+    justify-content: center;
   }
 
   .pb-150 {
@@ -2252,7 +2248,8 @@ section:nth-last-child {
     margin: 8px 2px;
   } */
 
-    .details-tab {
+  .details-tab {
+      width: 105px;
       font-size: 18px;
       padding: 0.5rem 0;
       margin: 8px;
@@ -2405,6 +2402,8 @@ section:nth-last-child {
   .carousel__btns {
     transform: translate(-50%, 8rem);
   }
+
+
 }
 
 
