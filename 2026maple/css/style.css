@@ -244,8 +244,8 @@ li {
   position: fixed;
   width: 50px;
   height: 50px;
-  bottom: 20px;
-  right: 30px;
+  bottom: 15px;
+  right: 15px;
   font-weight: 600;
   line-height: 50px;
   border-radius: 99rem;
@@ -1951,8 +1951,8 @@ section:nth-last-child {
       margin-top: 0;
   }
 
-  .sec4  .title-img { 
-      margin-top: 60px;
+  .sec4 .title-img { 
+      margin-top: 65px;
   }
 
   .title-img {
