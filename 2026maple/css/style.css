@@ -1413,6 +1413,7 @@ section:nth-last-child {
   overflow: hidden;
   font-weight: bold;
   margin: auto;
+  padding: 8px 0;
 }
 
 .referral-d {
