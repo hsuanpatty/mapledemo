@@ -1641,6 +1641,16 @@ section:nth-last-child {
     flex: 0 0 auto;
     width: 66.66666667%;
   }
+
+  .title_t a >.subtitle {
+    font-size: 20px;
+    width: 80%;
+  }
+
+  #goTop {
+    bottom: 30px;
+    right: 30px;
+  }
 }
 
 @media (min-width: 1700px) { 
