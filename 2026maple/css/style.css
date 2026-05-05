@@ -2271,8 +2271,7 @@ section:nth-last-child {
 
 
   .title_t a >.subtitle {
-    font-size: 17px;
-    font-weight: 400;
+    font-size: 18px;
     font-family: "微軟正黑體", Arial, sans-serif;
   }
 
@@ -2333,7 +2332,7 @@ section:nth-last-child {
   }
 
   .referral li {
-    padding: 16px 10px 10px;
+    padding: 10px;
   }
 
   .referral li.li-border {
