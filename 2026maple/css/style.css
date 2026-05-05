@@ -1485,6 +1485,12 @@ section:nth-last-child {
   font: 600 22px 微軟正黑體;
   padding: 0 2px 5px;
 }
+
+.price-txt .reference {
+  color: #e01212;
+  font: 600 16px 微軟正黑體;
+}
+
 .referral-d{
   display: block;
   align-items: center;
@@ -1596,7 +1602,7 @@ section:nth-last-child {
   }
 
   .title_t a >.subtitle {
-    width: 75%;
+    width: 65%;
     text-align: left;
     line-height: 1.8;
   }
@@ -1637,7 +1643,11 @@ section:nth-last-child {
 
   .title_t a >.subtitle {
     font-size: 20px;
-    width: 80%;
+    width: 75%;
+  }
+
+  .title-img {
+    padding-top: 12px;
   }
 
   #goTop {
@@ -1823,9 +1833,7 @@ section:nth-last-child {
   }
 
   .details-tab {
-    padding: 0.8rem;
-    font-size: 18px;
-    margin: 0;
+    font-size: 23px;
   }
 
 }
@@ -1909,6 +1917,7 @@ section:nth-last-child {
 
 
   .details-tab {
+    font-size: 18px;
     padding: 0.8rem 0.5rem;
     width: 130px;
     margin: 0 2px;
