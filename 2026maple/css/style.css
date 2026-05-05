@@ -1487,8 +1487,12 @@ section:nth-last-child {
 }
 
 .price-txt .reference {
-  color: #e01212;
-  font: 600 16px 微軟正黑體;
+  color: #ffffff;
+  background-color: #282828;
+  padding: 4px;
+  border-radius: 5px;
+  font: 600 12px 微軟正黑體;
+  margin-right: 3px;
 }
 
 .referral-d{
@@ -1608,7 +1612,7 @@ section:nth-last-child {
   }
 
   .details-content {
-    width: 85%;
+    width: 90%;
     padding: 1rem 1.5rem;
   }
 
