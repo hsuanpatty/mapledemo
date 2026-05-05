@@ -262,8 +262,6 @@ li {
 }
 
 /* header */
-/* ===== NAV ===== */
-
 nav {
   position: sticky;
   top: 0px;
@@ -303,7 +301,7 @@ nav.menu-height.scrolled {
 }
 
 /* ==========================================
-   DESKTOP MENU (一排)
+  (一排)
 ========================================== */
 .scroll-tag {
   display: flex;
@@ -472,7 +470,6 @@ p {
   line-height: 1.6;
 }
 
-
 section:nth-last-child {
   margin-bottom: 0px;
 }
@@ -488,11 +485,6 @@ section:nth-last-child {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
-/* .slider-padding img {
-  width: 98%;
-} */
-
 
 
 /* 歐洲 */
@@ -530,15 +522,6 @@ section:nth-last-child {
   position: relative;
   z-index: 1;
 }
-
-/* .bg-1 {
-    min-height: 500px;
-    padding-top: 0px;
-    padding-bottom: 160px;
-    position: relative;
-    z-index: 3;
-    background: url(../images/bg-1.png) center top  no-repeat;
-} */
 
 .tabs-wrapper {
   max-width: 500px;
@@ -1429,8 +1412,13 @@ section:nth-last-child {
   display: block;
   overflow: hidden;
   font-weight: bold;
-  padding: 18px 40px 10px;
   margin: auto;
+}
+
+.referral-d {
+  display: block;
+  padding: 18px 40px 10px; 
+  transition: 0.3s;
 }
 
 .li-border-5 {
@@ -1460,6 +1448,10 @@ section:nth-last-child {
 
 .title_t a >.subtitle:hover {
   color: #5c2d0c;
+}
+
+.details-content li:hover .referral-d {
+  background-color: rgba(255, 244, 235, 0.884);
 }
 
 .title_t li h5 {
@@ -1817,7 +1809,7 @@ section:nth-last-child {
     padding-bottom: 40px !important;
   }
 
-  .referral li {
+  .referral-d {
     padding: 18px 15px 10px;
   }
 
@@ -1827,6 +1819,12 @@ section:nth-last-child {
 
   .scroll-tag li {
     font-size: 20px;
+  }
+
+  .details-tab {
+    padding: 0.8rem;
+    font-size: 18px;
+    margin: 0;
   }
 
 }
@@ -1910,8 +1908,9 @@ section:nth-last-child {
 
 
   .details-tab {
-    padding: 0.8rem 1rem;
-    width: 140px;
+    padding: 0.8rem 0.5rem;
+    width: 130px;
+    margin: 0 2px;
   }
 
   .europe-box-img img {
@@ -1919,13 +1918,16 @@ section:nth-last-child {
   }
 
   .referral li {
-    padding: 18px 40px 10px;
+    padding: 18px 20px 10px;
   }
 
   .title_t a >.subtitle {
     font-size: 16px;
   }
-  
+
+  .referral-d {
+    padding: 10px;
+  }
 }
 
  @media (max-width: 767.98px) { 
@@ -2070,6 +2072,7 @@ section:nth-last-child {
 
   .details-tab {
     font-size: 18px;
+    width: 140px;
     padding: 0.8rem 1rem;
     margin: 10px 3px;
     justify-content: center;
@@ -2330,7 +2333,7 @@ section:nth-last-child {
   }
 
   .referral li {
-    padding: 16px 25px 10px;
+    padding: 16px 10px 10px;
   }
 
   .referral li.li-border {
@@ -2348,6 +2351,10 @@ section:nth-last-child {
   .sec1 .title-img {
     padding-top: 20px;
   }
+
+  .title_t a >.subtitle {
+    margin-bottom: 6px;
+  } 
 }
 
 @media (max-width: 500.98px) { 
